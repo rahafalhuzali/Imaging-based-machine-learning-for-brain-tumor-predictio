@@ -101,6 +101,7 @@ The table below summarizes the accuracy achieved by each model:
 
 | Model                  | Accuracy (%) |
 |-------------------------|-------------|
+| Logistic Regression     | 95          |
 | Support Vector Machines | 97          |
 | ResNet101              | 58          |
 | EfficientNetB3         | 99          |
