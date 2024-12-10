@@ -16,7 +16,7 @@ This repository contains the implementation of our senior project **"Imaging-bas
 
 ## Overview
 
-Accurate and early diagnosis of brain tumors is crucial for effective treatment and improving survival rates. Traditional diagnostic methods are time-consuming, subjective, and prone to human error. By leveraging **machine learning (ML)** and **deep learning (DL)** techniques, this project aims to automate the process of brain tumor detection and classification using MRI/CT images.
+Accurate and early diagnosis of brain tumors is crucial for effective treatment and improving survival rates. Traditional diagnostic methods are time-consuming, subjective, and prone to human error. By leveraging **machine learning (ML)** and **deep learning (DL)** techniques, this project aims to automate the process of brain tumor detection and classification using MRI images.
 
 **Key Features:**
 - Predict the presence or absence of brain tumors.
@@ -32,14 +32,13 @@ Accurate and early diagnosis of brain tumors is crucial for effective treatment 
    - Identify the most accurate machine learning and deep learning models.
 
 2. **Data Preprocessing**:
-   - Prepare and preprocess MRI/CT datasets for training and evaluation.
+   - Prepare and preprocess MRI datasets for training and evaluation.
    - Apply techniques such as grayscale conversion, resizing, and feature extraction.
 
 3. **Model Development**:
    - Implement multiple machine learning and deep learning models, including:
      - **Support Vector Machines (SVM)**
      - **Convolutional Neural Networks (CNNs)**
-     - **VGG16**
      - **ResNet101**
      - **EfficientNetB3**
 
@@ -71,12 +70,12 @@ The dataset used for this project consists of MRI images of brain tumors. The da
 ## Methodology
 
 We followed the **Data Science Life Cycle Methodology**, which includes the following steps:
-1. **Data Collection**: Collect MRI/CT images from publicly available datasets.
+1. **Data Collection**: Collect MRI images from publicly available datasets.
 2. **Data Preprocessing**: Normalize, resize, and augment the data for consistency.
 3. **Model Building**: Train, validate, and test multiple machine learning and deep learning models.
 4. **Performance Evaluation**: Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
 5. **Optimization**: Fine-tune models through hyperparameter tuning and cross-validation.
-
+![Methodology](Methodology.png)
    
 
 ---
@@ -102,7 +101,6 @@ The table below summarizes the accuracy achieved by each model:
 
 | Model                  | Accuracy (%) |
 |-------------------------|-------------|
-| Logistic Regression     | 95          |
 | Support Vector Machines | 97          |
 | ResNet101              | 58          |
 | EfficientNetB3         | 99          |
