@@ -75,7 +75,7 @@ We followed the **Data Science Life Cycle Methodology**, which includes the foll
 3. **Model Building**: Train, validate, and test multiple machine learning and deep learning models.
 4. **Performance Evaluation**: Evaluate models using metrics such as accuracy, precision, recall, and F1-score.
 5. **Optimization**: Fine-tune models through hyperparameter tuning and cross-validation.
-![Methodology](Methodology.png)
+![Methodology](Methodology.jpg)
    
 
 ---
