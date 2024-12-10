@@ -107,6 +107,6 @@ The table below summarizes the accuracy achieved by each model:
 
 **Key Insights:**
 - The **EfficientNetB3** model achieved the highest accuracy (99.6%), making it the most effective for brain tumor classification.
-- SVM performed well among traditional machine learning models, with an accuracy of 90.7%.
+- SVM performed well among traditional machine learning models, with an accuracy of 97%.
 
 ---
